@@ -13,6 +13,7 @@ Câu lệnh thay thế trong vim
 ```
 :%s/utf8mb4_0900_ai_ci/utf8mb4_general_ci/g
 ```
+```
 :%s/CHARSET=utf8/CHARSET=utf8mb4/g
 ```
 ```
