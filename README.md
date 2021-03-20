@@ -49,3 +49,6 @@ hình ảnh minh họa dùng cmd
 ### Mạnh yếu
 + Ưu điểm: nhanh gọn, cấu trúc db được bảo toàn và đỡ phải đau đầu kiểu charset
 + Nhược điểm: chỉ dùng được cho db có dung lượng nhỏ
+
+hình ảnh minh họa dùng giao diện
+<img src="hd2.png" />
