@@ -12,6 +12,8 @@ Mở file vừa export, dùng vim để thay thế toàn bộ kiểu charset cho
 Câu lệnh thay thế trong vim
 ```
 :%s/utf8mb4_0900_ai_ci/utf8mb4_general_ci/g
+:%s/CHARSET=utf8/CHARSET=utf8mb4/g
+:%s/CHARACTER SET utf8/CHARACTER SET utf8mb4/g
 ```
 
 ### Bước 2: (vps2) Login vào vps và tạo database tên giống như tên bên vps 1
