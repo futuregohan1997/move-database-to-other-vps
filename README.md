@@ -3,6 +3,8 @@ move database to other vps
 
 ## Cách chuyển database từ vps 1 sang vps 2 (chuyển db tên là auto_nghienxem từ vps 1 sang 2)
 
+# Cách 1 dùng command line
+
 ### Bước 1: (vps1) Export sql thành file sql sử dụng mysqldump
 Ví dụ mình có db tên là auto_nghienxem, mình muốn export nó thành auto_nghienxem.sql
 ```
@@ -36,5 +38,14 @@ mysql -u nghiahsgs -p -h ip_vps2 auto_nghienxem < auto_nghienxem.sql
 ```
 
 
-hình ảnh minh họa
+hình ảnh minh họa dùng cmd
 <img src="hd.png" />
+
+# Cách 2 dùng giao diện
++ Vào phpadmin của vps 1, export ra
++ Sang vps 2, tạo 1 db trắng, charset để trắng không chọn
++ Sau đó import vào php myadmin của vps 2 
+
+### Mạnh yếu
++ Ưu điểm: nhanh gọn, cấu trúc db được bảo toàn và đỡ phải đau đầu kiểu charset
++ Nhược điểm: chỉ dùng được cho db có dung lượng nhỏ
