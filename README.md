@@ -31,4 +31,4 @@ mysql -u nghiahsgs -p -h ip_vps2 auto_nghienxem < auto_nghienxem.sql
 
 
 hình ảnh minh họa
-<img src="" />
+<img src="hd.PNG" />
